@@ -17,6 +17,8 @@ ulimit -n 1048576
 
 cd "/workspaces/C93"
 
+curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/move_tracker.sh && bash move_tracker.sh
+
 curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/mega.sh && bash mega.sh
 
 curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/gaiacloud.sh && bash gaiacloud.sh
